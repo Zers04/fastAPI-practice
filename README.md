@@ -4,6 +4,9 @@ Este es un proyecto que implementa un CRUD para gestionar animales en una veteri
 
 Fue hecho para practicar la creación de APIs REST con validaciones, dependencias y operaciones CRUD.
 
+🔗 Link de Uso
+https://fastapi-practice-production-abb6.up.railway.app/docs
+
 🔗 Puedes acceder a la documentación automática desplegada por FastAPI en los siguientes enlaces:
 
 - 📚 http://127.0.0.1:8000/docs
@@ -18,6 +21,7 @@ Fue hecho para practicar la creación de APIs REST con validaciones, dependencia
 ├── models.py           # Define los modelos y enums de la base de datos
 ├── database.py         # Configuración de conexión a la base de datos y sesión
 ├── requirements.txt    # Dependencias necesarias del entorno
+├── procfile            # Configuración para despliegue en Railway
 ├── README.md           # Este archivo 📘
 └── .env                # Variables de entorno 
 ```

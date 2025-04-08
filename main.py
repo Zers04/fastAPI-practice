@@ -5,7 +5,11 @@ import models
 from database import SessionLocal, engine
 from sqlalchemy.orm import Session
 
-app = FastAPI()
+app = FastAPI(
+    title="Veterinaria Margarita 😺",
+    description="API para gestionar animales en la veterinaria Margarita",
+    version="1.0.0",
+)
 
 models.Base.metadata.create_all(bind=engine)
 
